@@ -16,7 +16,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7973494693:AAEXCP2cOQydMuwO3daU1gdu-tHCaQa2-ow")
 
 COMICK_BASE = "https://api.comick.fun"
 

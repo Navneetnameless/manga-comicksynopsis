@@ -133,7 +133,7 @@ def build_message(comic: dict, chapters: int | None) -> str:
             artist = name
 
     slug = comic.get("slug", "")
-    url = f"https://comick.io/comic/{slug}" if slug else "https://comick.io"
+    url = f"https://comick.dev/comic/{slug}" if slug else "https://comick.dev"
 
     # ── Build title block (blockquote) ────────────────────────────────────────
     # Main title + optional alt titles on next line inside the blockquote
